@@ -44,8 +44,8 @@ class _AnagramPageState extends State<AnagramPage> {
             style: const TextStyle(color: Colors.white),
           ),
         ),
-        body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 25),
+        body: const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 25, vertical: 25),
           child: AnagramDetailPage(),
         ));
   }
